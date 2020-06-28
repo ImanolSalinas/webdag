@@ -3278,10 +3278,18 @@ input[type="button"].btn-block {
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
-  white-space: nowrap; }
+  white-space: nowrap;
+  width: 100%;
+  max-width: 130px; 
+}
   .navbar-brand:hover, .navbar-brand:focus {
-    text-decoration: none; }
+    text-decoration: none;
+  
+  }
 
+  .navbar-brand > img {
+    width: 100%;
+  }
 .navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7607,6 +7615,12 @@ header {
   .home-slider.major-caousel .owl-dots {
     bottom: -30px !important;
     position: relative; }
+  .home-slider {
+   background-image: url("../images/slides/slide1.jpg");
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+  }
 
 .inner-page .slider-item {
   position: relative;
