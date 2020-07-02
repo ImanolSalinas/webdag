@@ -7675,7 +7675,7 @@ header {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#91e842', GradientType=0 ); }
   .slider-item .slider-text {
     color: #fff;
-    height: calc(95vh);
+    height: calc(88vh);
     min-height: 700px; }
     .slider-item .slider-text .child-name {
       font-size: 40px;
