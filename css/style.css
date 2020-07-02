@@ -8281,3 +8281,14 @@ header {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2); }
+
+/* Custom Styles */
+.cliente-slide {
+  width: 100%;
+  height: 150px;
+  max-width: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
