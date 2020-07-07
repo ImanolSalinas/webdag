@@ -7346,9 +7346,13 @@ textarea.form-control {
     text-decoration: none; }
 
 /* Header */
+.nav-link {
+  color: #062B74!important;
+  font-weight: bold;
+}
 header {
+  background: white;
   position: absolute;
-  top: 30px;
   left: 0;
   width: 100%;
   z-index: 5; }
