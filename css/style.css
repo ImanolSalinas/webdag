@@ -8391,6 +8391,11 @@ header {
   margin-bottom: 4rem;
 }
 
+#clientes .clientes-mobile {
+  display: none;
+}
+
+
 #contacto {
   padding: 4em 0;
 }
@@ -8417,8 +8422,11 @@ header {
   .header-nav {
     position: sticky;
   }
-  #clientes {
-    
+  #clientes .clientes-mobile {
+    display: block;
+  }
+  #clientes .clientes-desktop {
+    display: none;
   }
 }
 
