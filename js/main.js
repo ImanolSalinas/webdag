@@ -40,7 +40,7 @@
     animateOut: 'fadeOut',
     animateIn: 'fadeIn',
     nav: true,
-    autoplayHoverPause: true,
+    autoplayHoverPause: false,
     items: 1,
     dragTouch: true,
     navText: ["<span class='ion-chevron-left'></span>", "<span class='ion-chevron-right'></span>"],
