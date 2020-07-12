@@ -7631,13 +7631,25 @@ header {
     bottom: -30px !important;
     position: relative; }
 
+    .home-slider-wrapper {
+      position: relative;
+      overflow: hidden;
+    }
 
-  .home-slider-wrapper {
-   background-image: url("../images/slides/slide1.jpg");
-   background-size: cover;
-   background-position: center;
-   background-attachment: fixed;
+  .home-slider-bg-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
   }
+
+  @media (max-width: 768px) {
+    .home-slider-bg-image {
+      transform: translateX(-50vw);
+      width: auto;
+    }
+  }
+    
 
   .home-slider:after {
     content: "";
