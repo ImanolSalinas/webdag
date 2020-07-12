@@ -8413,11 +8413,16 @@ header {
   }
 }
 
+@media (max-width: 768px) {
+  .header-nav {
+    position: sticky;
+  }
+  #clientes {
+    
+  }
+}
+
 .owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
   -ms-touch-action: auto;
       touch-action: auto;
-}
-
-.header-nav {
-  position: sticky;
 }
