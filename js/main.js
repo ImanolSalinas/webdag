@@ -42,7 +42,7 @@
     nav: true,
     autoplayHoverPause: false,
     items: 1,
-    dragTouch: true,
+    // dragTouch: true,
     navText: ["<span class='ion-chevron-left'></span>", "<span class='ion-chevron-right'></span>"],
     responsive: {
       0: {
