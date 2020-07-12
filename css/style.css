@@ -8417,3 +8417,7 @@ header {
   -ms-touch-action: auto;
       touch-action: auto;
 }
+
+.header-nav {
+  position: sticky;
+}
