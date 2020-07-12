@@ -7899,6 +7899,12 @@ header {
   display: block;
   margin-bottom: 10px; }
 
+  .logowsp{
+    color: #25d366;
+    vertical-align: sub;
+    
+  }
+
 .site-footer {
   padding: 7em 0;
   border-top: #eee; }
