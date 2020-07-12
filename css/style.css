@@ -7630,12 +7630,18 @@ header {
   .home-slider.major-caousel .owl-dots {
     bottom: -30px !important;
     position: relative; }
-  .home-slider {
+
+
+  .home-slider:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
    background-image: url("../images/slides/slide1.jpg");
    background-size: cover;
    background-position: center;
    background-attachment: fixed;
-   position: relative;
   }
 
   .home-slider:after {
