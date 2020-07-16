@@ -7632,6 +7632,7 @@ header {
     position: relative; }
 
     .home-slider-wrapper {
+      padding-top: 122.75px;
       position: relative;
       overflow: hidden;
     }
@@ -8389,7 +8390,11 @@ header {
 
 .header-nav {
   padding: 1rem 0;
-  position: sticky;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 #clientes {
