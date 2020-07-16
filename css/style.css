@@ -8387,6 +8387,10 @@ header {
   visibility: visible;
 }
 
+.header-nav {
+  padding: 1rem 0;
+}
+
 #clientes {
   margin-bottom: 4rem;
 }
