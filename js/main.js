@@ -61,11 +61,6 @@
     }
   });
 
- 
-
-  
-
-
   var contentWayPoint = function () {
     var i = 0;
     $('.element-animate').waypoint(function (direction) {
@@ -107,6 +102,8 @@
   $('.navbar .dropdown > a').click(function () {
     location.href = this.href;
   });
+
+  var headerNavHeight = $('.header-nav').outerHeight();
 
   $('a[href*="#"]')
     // Remove links that don't actually link to anything
