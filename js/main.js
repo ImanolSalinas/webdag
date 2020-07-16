@@ -123,7 +123,7 @@
           // Only prevent default if animation is actually gonna happen
           event.preventDefault();
           $('html, body').animate({
-            scrollTop: target.offset().top
+            scrollTop: target.offset().top - headerNavHeight
           }, 1000, function () {
             // Callback after animation
             // Must change focus!
