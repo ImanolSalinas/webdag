@@ -104,12 +104,17 @@
   });
 
   var headerNavHeight = $('.header-nav').outerHeight();
+  var navbarToggler = $('.navbar-toggler');
+  var windowWidth = window.screen.width < window.outerWidth ? window.screen.width : window.outerWidth;
+  var mobile = windowWidth < 768;
 
   $('a[href*="#"]')
     // Remove links that don't actually link to anything
     .not('[href="#"]')
     .not('[href="#0"]')
     .click(function (event) {
+      // Close Mobile menu
+      if (mobile) navbarToggler.click();
       // On-page links
       if (
         location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
@@ -124,18 +129,7 @@
           event.preventDefault();
           $('html, body').animate({
             scrollTop: target.offset().top - headerNavHeight
-          }, 1000, function () {
-            // Callback after animation
-            // Must change focus!
-            // var $target = $(target);
-            // $target.focus();
-            // if ($target.is(":focus")) { // Checking if the target was focused
-            //   return false;
-            // } else {
-            //   $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
-            //   $target.focus(); // Set focus again
-            // };
-          });
+          }, 1000, () => {}); // To add a callback if needed
         }
       }
     });
