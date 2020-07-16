@@ -8389,6 +8389,7 @@ header {
 
 .header-nav {
   padding: 1rem 0;
+  position: sticky;
 }
 
 #clientes {
@@ -8408,9 +8409,7 @@ header {
 }
 
 .pilares-bg {
-  background-image: url('../images/about_1.jpg'); 
-  /* background-attachment: fixed;     
-  background-position: -25vw; */
+  background-image: url('../images/about_1.jpg');
 }
 
 @media (max-width: 991.98px) {
@@ -8426,9 +8425,6 @@ header {
 }
 
 @media (max-width: 768px) {
-  .header-nav {
-    position: sticky;
-  }
   #clientes .clientes-mobile {
     display: block;
   }
